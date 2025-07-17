@@ -66,6 +66,7 @@ cd /Users/yigex/Documents/LLM-Inftra/mmdetection
 
 # 安装依赖
 pip install -r requirements.txt
+pip install mmengine mmcv==2.0.0rc4
 
 # 安装MMDetection (开发模式)
 pip install -v -e .
